@@ -23,7 +23,7 @@ function sendVote(vote) {
 }
 
 function likeClicked() {
-  alert('HELLO, I AM HERE!!!');
+  alert('HELLO, I AM HERE!!! ITS WORKING');
   if (checkForSignInButton() === false) {
     if (storedData.previousState === DISLIKED_STATE) {
       sendVote(1);
